@@ -15,6 +15,10 @@ public class Main {
 			TranslateTo.trenslate();
 		} else if (fn.equalsIgnoreCase("receive")) {
 			TranslateFrom.trenslate2();
+		} else {
+			while (!fn.equalsIgnoreCase("send") || fn.equalsIgnoreCase("receive")) {
+		}
+			JOptionPane.showInputDialog("Please enter send or receive");
 		}
 	}
 
