@@ -5,6 +5,9 @@ import javax.swing.JOptionPane;
 public class TranslateFrom {
 	public static void trenslate2() {
 		String stringetje = JOptionPane.showInputDialog("Enter message here:");
+		stringetje = stringetje.replaceAll("58724", "au");
+		stringetje = stringetje.replaceAll("16234", "ch");
+		stringetje = stringetje.replaceAll("42052", "oe");
 		stringetje = stringetje.replaceAll("12254", "a");
 		stringetje = stringetje.replaceAll("23456", "b");
 		stringetje = stringetje.replaceAll("17523", "c");
